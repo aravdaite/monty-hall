@@ -1,0 +1,346 @@
+
+.body{
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  padding: 10vh 0 0 0;
+  background-color: rgb(160, 160, 160);
+  color: white;
+}
+@media only screen and (max-width: 600px) {
+  .body{
+    padding: 10px;
+  }
+}
+.Monty__text{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ padding: 50px 100px;
+ font-size: 24px;
+}
+.Monty__gameText{
+  padding: 10px 0;
+  font-size: 36px;
+}
+@media only screen and (max-width: 600px) {
+  .Monty__gameText{
+    padding: 10px 0;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-align: center;
+    height: 10vh;
+  }
+}
+.Input{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ padding: 50px 100px;
+ font-size: 24px;
+}
+@media only screen and (max-width: 600px) {
+  .Input{
+   padding: 0 ;
+  }
+}
+.Monty__startButtonsDiv{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  width: 100%;
+  background-color: rgb(75, 75, 75);
+}
+
+.Logo{
+  margin: 20px 10px 0 10px;
+}
+@media only screen and (max-width: 600px) {
+  .Logo{
+    margin: 0;
+  }
+}
+@media only screen and (max-width: 600px) {
+.Monty__text{
+  padding:10px;
+  font-size: 18px;
+width: 100%;
+}
+}
+.ToolbarText{
+  display: flex;
+  align-items: flex-end;
+  color: white;
+  font-size: 24px;
+  text-transform: uppercase;
+  font-weight:600;
+  padding: 0 0 0 10px;
+
+}
+@media only screen and (max-width: 600px) {
+  .ToolbarText{
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight:600;
+    margin: 5px;
+  }
+}
+.NavigationItem{
+  font-size: 24px;
+  margin: 10px 20px;
+  text-decoration: none;
+  color: white;
+}
+@media only screen and (max-width: 600px) {
+  .NavigationItem{
+  padding: 10px;
+  }
+}
+.NavigationItem-active{
+  font-size: 24px;
+  margin: 10px 20px;
+  text-decoration: none;
+  color: white;
+  border-bottom: 2px solid white;
+}
+@media only screen and (max-width: 600px) {
+  .NavigationItem{
+    font-size: 18px;
+  }
+}
+.navigation-link:hover{
+  text-shadow: 1px 1px 1px white;
+  cursor: pointer;
+}
+.navigation{
+  padding: 0 40px 0 0;
+  display: flex;
+  align-items: flex-end;
+  height: 80%;
+}
+@media only screen and (max-width: 600px) {
+  .navigation{
+    padding: 0;
+  }
+}
+.navigation-list {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0 0 10px 0;
+}
+.Monty__doors{
+  display: flex;
+  flex-direction: column;
+  height: 600px;
+}
+.Monty__doors{ 
+   display: flex; 
+   height: auto;
+}
+.Monty__doors-none{
+display: none;
+}
+.Monty__doorBox{
+  display: flex;
+}
+@media only screen and (max-width: 600px) {
+}
+.Button__mainBTN{
+  box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
+  padding: 1.25rem 2rem;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: .15rem;
+  border: 0;
+  background-color: #64a19d;
+  margin: 20px;
+  color: #fff;
+  border-radius: 5px;
+}
+@media only screen and (max-width: 600px) {
+  .Button__mainBTN{
+  font-size: 12px;
+  padding: 1rem 1rem;
+}
+}
+
+.Button__mainBTN-show:hover{
+  background-color: #4f837f;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+.Button__playBTN{
+  font-size: 80%;
+  padding: .75rem;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: .15rem;
+  color: #64a19d;
+  border: 1px solid #64a19d;
+  margin: 10px;
+  border-radius: 5px;
+  min-width: 150px;
+}
+@media only screen and (max-width: 600px) {
+  .Button__playBTN{
+  margin: 1.5rem;
+  }
+}
+.Button__playBTN-show:hover{
+  background-color: #4f837f;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+  color: white;
+  border: none;
+}
+
+.Button__box-closed{
+  height: 200px;
+  width: 200px;
+  background-color: black;
+  margin: 10px;
+}
+
+.Button__box-closed:hover{
+ cursor: pointer;
+}
+.Button__box-opened{
+  height: 200px;
+  width: 200px;
+  background-color: white;
+  margin: 10px;
+}
+.Button__box-chosen{
+  height: 200px;
+  width: 200px;
+  background-color: black;
+  margin: 10px;
+  border: 10px solid rgb(145, 43, 43);
+}
+.Button__box-chosen-opened{
+  height: 200px;
+  width: 200px;
+  background-color: white;
+  margin: 10px;
+  border: 10px solid rgb(145, 43, 43);
+}
+.Button__restart-show{
+    box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
+    padding: 10px;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: .15rem;
+    border: 0;
+    background-color: #831826;
+    margin: 20px;
+    color: #fff;
+    border-radius: 5px;
+}
+.Button__restart-show:hover{
+  background-color: #4d0c15;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+  color: white;
+  border: none;
+}
+
+.Input__inputField{
+  box-shadow: 0 .1875rem .1875rem 0 rgba(0,0,0,.1)!important;
+  padding: 10px;
+  height: auto;
+  font-size: 80%;
+  text-transform: uppercase;
+  letter-spacing: .15rem;
+  border-radius: 5px;
+  margin: 0 10px;
+}
+ .footer{
+  display: flex;
+  align-items: flex-end;
+  height: 50px;
+  justify-content: center;
+  background-color: rgb(75, 75, 75);
+}
+@media only screen and (max-width: 600px) {
+  .Button__box-closed{
+    height: 15vh;
+    width: 15vh;
+    background-color: black;
+    margin: 10px;
+  }
+  .Button__box-opened{
+    height: 15vh;
+    width: 15vh;
+    background-color: white;
+    margin: 10px;
+  }
+  .Button__box-chosen{
+    height: 15vh;
+    width: 15vh;
+    background-color: black;
+    margin: 10px;
+    border: 5px solid rgb(145, 43, 43);
+  }
+  .Button__box-chosen-opened{
+    height: 15vh;
+    width: 15vh;
+    background-color: white;
+    margin: 10px;
+    border: 10px solid rgb(145, 43, 43);
+  }
+}
+.About{
+  padding: 0 200px 50px;
+}
+
+.About__p{
+  padding: 0 50px;
+  font-size: 24px;
+}
+.About__p-mid{
+  padding: 0 100px;
+  font-size: 20px;
+}
+.About__p-source{
+  display: flex;
+  justify-content: flex-end;
+padding: 0 200px;
+}
+.About__p-source a{
+  color: white;
+  font-size: 18px;
+}
+.About__p-source a:hover{
+  cursor: pointer;
+}
+@media only screen and (max-width: 600px) {
+  .About{
+padding: 0;
+width: 100%;
+  }
+  .About__p{
+    padding: 0;
+    width: 100%;
+  }
+  .About__p-mid{
+    padding: 0;
+    width: 100%;
+  }
+  .About__p-source {
+    width: 100%;
+    padding: 0;
+  }
+  .About__p-source a{
+    width: 200px;
+  }
+}
