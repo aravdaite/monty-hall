@@ -2,7 +2,7 @@
   "name": "monty-hall",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://aravdaite.github.io/monty-hall",
+  "homepage": "http://aravdaite.github.io/monty-hall/",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
