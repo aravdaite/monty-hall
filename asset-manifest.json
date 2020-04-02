@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/monty-hall/static/css/main.487d4638.chunk.css",
+    "main.js": "/monty-hall/static/js/main.f3ea8306.chunk.js",
+    "main.js.map": "/monty-hall/static/js/main.f3ea8306.chunk.js.map",
+    "runtime-main.js": "/monty-hall/static/js/runtime-main.144e9297.js",
+    "runtime-main.js.map": "/monty-hall/static/js/runtime-main.144e9297.js.map",
+    "static/js/2.0ca04766.chunk.js": "/monty-hall/static/js/2.0ca04766.chunk.js",
+    "static/js/2.0ca04766.chunk.js.map": "/monty-hall/static/js/2.0ca04766.chunk.js.map",
+    "index.html": "/monty-hall/index.html",
+    "precache-manifest.53f6cd7d9b80ffbe45fb29714100d907.js": "/monty-hall/precache-manifest.53f6cd7d9b80ffbe45fb29714100d907.js",
+    "service-worker.js": "/monty-hall/service-worker.js",
+    "static/css/main.487d4638.chunk.css.map": "/monty-hall/static/css/main.487d4638.chunk.css.map",
+    "static/js/2.0ca04766.chunk.js.LICENSE.txt": "/monty-hall/static/js/2.0ca04766.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.144e9297.js",
+    "static/js/2.0ca04766.chunk.js",
+    "static/css/main.487d4638.chunk.css",
+    "static/js/main.f3ea8306.chunk.js"
+  ]
+}
